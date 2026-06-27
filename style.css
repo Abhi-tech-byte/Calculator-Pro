@@ -15,20 +15,21 @@
 .calculator-body {
     background-color: rgb(102, 102, 135);
     width: 430px;
-    height: 70vh;
+    height: 75vh;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.calulator-display {
+.calculator-display {
     padding: 30px;
     background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 30px;
+    height: 94px;
 }
 
 .buttons-container {
@@ -43,7 +44,7 @@
 
 }
 
-.buttons {
+.buttons,.buttons-operators{
     background-color: rgb(129, 162, 128);
     width: 75px;
     height: 75px;
@@ -52,4 +53,12 @@
     justify-content: center;
     align-items: center;
 
+}
+.clearbtn{
+    height: 45px;
+    width: 150px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
 }
